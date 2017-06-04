@@ -1,0 +1,10 @@
+typedef struct racional Racional;
+int getN(Racional* x);
+int getD(Racional* x);
+void libera(Racional* x);
+Racional* set(int num, int den);
+Racional* add(Racional* x, Racional* y);
+Racional* sub(Racional* x, Racional* y);
+Racional* mul(Racional* x, Racional* y);
+Racional* divide(Racional* x, Racional* y);
+char* notation(Racional* y);
